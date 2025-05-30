@@ -17,9 +17,38 @@ This project contains the design and simulation of a **Hybrid 90° Coupler** (Br
 
 ## Design Specifications
 - **Center Frequency:** 5 GHz
-- **Bandwidth:** [Specify if applicable]
-- **Insertion Loss:** [Simulated value]
-- **Return Loss (S11):** [Simulated value]
-- **Isolation (S41):** [Simulated value]
-- **Phase Difference:** 90° ± [tolerance]
+- **Bandwidth:** [10%]
+- **Insertion Loss:** [-3.16]
+- **Return Loss (S11):** [-38]
+- **Isolation (S41):** [-51]
+- **Phase Difference:** 90° ± [0.6]
 
+
+## Simulation Results
+[Describe key simulation results or include screenshots]
+- ![S parameters](S-Parameters.jpg)
+- Phase Difference Verification
+- Electric Field Distribution
+
+## Getting Started
+### Prerequisites
+- Ansys HFSS (Version [XX] or later)
+- [Any other dependencies]
+
+### How to Open and Simulate
+1. Clone this repository
+2. Open `HFSS_Design/Hybrid90_5GHz.aedt` in HFSS
+3. Run the simulation
+
+## Optimization
+[If applicable, mention any optimization techniques used like parametric sweeps, tuning, etc.]
+
+## References
+- [List any papers, books, or resources used in the design]
+
+## License
+[Specify your license, e.g., MIT, GNU, or proprietary]
+
+---
+
+**Note:** Replace placeholders (in square brackets) with your actual project details, and add/remove sections as needed.
